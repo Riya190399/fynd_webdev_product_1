@@ -1,0 +1,37 @@
+#date{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 20px;
+    font-family: sans-serif;
+   
+}
+#day{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 20px;
+    font-family: sans-serif;
+
+}
+#newspapername{
+    
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+#udimg{
+   float: left;
+   padding-right:10px;
+   padding-bottom:10px;
+}
+
+#t1{
+    float: right;
+}
+
+#text{
+    padding-right: 250px;
+}

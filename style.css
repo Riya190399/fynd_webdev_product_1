@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@500&family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+*{
+    padding:5px;
+    margin: 0%;
+}
+#logo{
+    padding: 10px 10px 10px 50px;
+    float: left;
+}
+
+
+.side{
+    background-image:url(https://th.bing.com/th/id/R.9dd388a9f90d7681e3aceaecb0f0efe9?rik=HOc1y5fdiWOd0A&riu=http%3a%2f%2fstatic.facegfx.com%2f2012%2fred-shaded-background-05-hd-pictures_827575228.jpg&ehk=M5Ol8Qv7rG9q78yttuMM5RQQrXGw5588snfeEaBj02E%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1);
+    background-size: cover;
+    
+    height: 30vw;
+    
+}
+
+#bet{
+    font-size: x-large;
+    padding: 20px;
+    font-family: 'Arima', cursive;
+    font-family: 'Splash', cursive;
+    color: rgb(15, 220, 186);
+    
+    background-size: cover;
+    
+}
+.fixed {
+    position: fixed;
+    top:-3px;
+    right:20px;
+    width: 700px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color:rgba(255, 255, 255, 0.5);
+    word-spacing: 30px;
+    text-align: center;
+    border-style: groove;
+}
+.fixed1 {
+    position: fixed;
+    top:-3px;
+    left:20px;
+    width: 20vw;
+    border: none;
+    background-color:rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border-style: groove;
+}
+
+
+
+#b2{
+    background-color: red;
+    border-radius: 25px;
+    width: 200px;
+    border: 2px solid;
+    margin: 10px;
+    
+}
+
+#b1{
+    background-color: red;
+    border-radius: 25px;
+    width: 200px;
+    border: 2px solid;
+    margin: 10px;
+}
+
+.img1{
+    float: right;
+    padding: 20px;
+    
+    }
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding:35px 0 ;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content:'';
+    height: 3px;
+    width: 0%;
+    background: rgb(15, 220, 186);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+
+.navbar ul li:hover::after{
+  width: 100%;
+
+}
+
+.content{
+    width:100%;
+    position: absolute;
+    padding: 100px 50px 100px 0px;
+    text-align: center;
+    color: white;
+}
+
+.content h1{
+    font-size:70px;
+}
+
+.content p{
+   font-size: large;
+}
+
+.content button{
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 25px;
+    border-color:rgb(15, 220, 186) ;
+    cursor:pointer;
+    color: white;
+    background: transparent;
+    position:relative;
+    
+    
+}
+
+.testimonials{
+
+
+    padding-top: 60px;
+    font-size: xx-large;
+    font-family: 'Arima', cursive;
+    font-family: 'Splash', cursive;
+    text-align: center;
+
+}
+.content button:hover{
+    background-color: rgb(15, 220, 186);
+    
+}
+
+.text{
+    
+    
+    position: relative;
+    color: white;
+    left:30px;
+    top:200px;
+    text-align:justify;
+    font-size: 1.5cm;
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+}
+
+.main{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://th.bing.com/th/id/OIP.dVAR4dn7JIvJPfMs6O8DKQHaE8?pid=ImgDet&w=1309&h=873&rs=1);
+    background-size: cover;
+    background-position: center;
+    width: 96vw;
+    height: 40vw;
+}
+.about p{
+    text-align: center;
+    padding: 0%;
+    font-size: 0.8cm;
+    font-family: 'Edu QLD Beginner', cursive;
+}
+
+#test{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+    margin: 100px;
+    
+}
+#test img{
+    border-radius: 50%;
+}
+
+#test p{
+    font-size: large;
+    font-family: 'Edu QLD Beginner', cursive;
+}
+
+#form p,#address p{
+    padding-top: 60px;
+    font-size: xx-large;
+    font-family: 'Arima', cursive;
+    font-family: 'Splash', cursive;
+    text-align: center;
+
+
+}
+
+#f1{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://th.bing.com/th/id/R.a58b6deda334eba76509bbd9dda21ae0?rik=0yYInJvEm0PLiQ&riu=http%3a%2f%2fwww.goodfoodrecipes.com%2fwp-content%2fuploads%2f2015%2f04%2ffancy-junk-food.jpg&ehk=m2QVPDdUSZ571Iifa4jDhMyLulu14EVWTvoAw08iN8Q%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1);
+    background-size: cover;
+
+ color: white;
+ padding: 20px 70px;
+}
+
+#b3,#b4{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+ 
